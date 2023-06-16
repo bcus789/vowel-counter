@@ -16,7 +16,7 @@ function vowelCheck(letter){
     for (let i = 0; i < vowels.length; i++){
         if (vowels[i] === letter){
             vowelCount ++
-            numVowelsEl.innerText = vowelCount
+            numVowelsEl.innerText = vowelCount            
         }
     }
 }
